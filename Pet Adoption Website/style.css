@@ -1,0 +1,53 @@
+html{
+  background-color: aquamarine;
+}
+body {
+    font-family: 'Lucida ';
+    margin: 0;
+}
+.txt{
+  text-indent:40px;
+}
+.image{
+  float: left;
+  width:300px;
+  heigth:300px
+}
+#top {
+    background-color: aquamarine;
+    text-align: center;
+    font-size: 4em;
+}
+mark{
+  background-color: red ;
+  color:royalblue;
+}
+marks{
+  color: red;
+}
+#middle {
+    background-color: white;
+    overflow-y: scroll; /* Enable scrolling for middle part */
+}
+
+#bottom {
+    background-color: yellow;
+    text-align: center;
+}
+.con{
+  text-align:left;
+}
+.txts{
+  text-align: left;
+  text-decoration: underline;
+}
+#animals .animal {
+    /*display: inline-block;
+    margin: 10px;*/
+}
+#animals .animal img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+  align-items: center;
+}
